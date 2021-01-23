@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background-color: blue;
+        }
+        #video-popup {
+            background: rgba(0,0,0, .9);
+            z-index: 2;
+            position: fixed;
+            width: 100vw;
+            height: 0;
+            left: 0;
+            bottom: 0;
+            display: grid;
+            place-items: center;
+        }
+        #video-popup--btn:checked ~ #video-popup {
+            height: 100%;
+        }
+        #video-popup--btn:before {
+            content: url("icons/play-btn.svg");
+        }
+
+    </style>
+</head>
+<body>
+<div class="containter">
+    <input type="checkbox" id="video-popup--btn">
+    <label for="video-popup--btn"></label>
+    <div id="video-popup">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/J442-ti-Dhg" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+</div>
+</body>
+</html>

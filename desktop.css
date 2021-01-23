@@ -1,0 +1,40 @@
+@media all and (max-width: 1199px) {
+    .header__menu, .starlink__card--plus, .reusability, .subscribe__text {
+        display: none;
+    }
+}
+@media all and (min-width: 1200px) {
+    .landing, .starlink, .reusability,  .subscribe, .quote, .elonmusk, .footer {
+        padding: 20px 100px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        margin: 0 0;
+    }
+    .header__logo {
+        margin: 0 0;
+        height: 25px;
+    }
+    .header__menu {
+        margin-left: 20px;
+    }
+    .starlink__img {
+        height: 247px;
+        width: 371px;
+    }
+    .subscribe__email--box {
+        width: 335px;
+    }
+    .subsrcibe__email--title {
+        font-size: 32px;
+    }
+    .subscribe__button {
+        position: absolute;
+        top: 168px;
+        right: 445px;
+    }
+    .vertical__line {
+        height: 273px;
+    }
+}

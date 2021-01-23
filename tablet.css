@@ -1,0 +1,47 @@
+@media all and (max-width: 767px) {
+    .header__bars {
+        display: none;
+    }
+}
+@media all and (min-width: 768px) {
+    .starlink {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .landing, .starlink, .subscribe, .quote, .elonmusk, .footer {
+        padding: 20px 40px;
+    }
+    .starship__date {
+        font-size: 24px;
+    }
+    .starship__title {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer__copyright {
+        margin-right: 10px;
+    }
+    .subscribe__email--box {
+        width: 335px;
+        margin: 0 auto;
+    }
+    .subscribe__button {
+        position: absolute;
+        right: 170px;
+    }
+    .quote {
+        background-size: 1400px;
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    .elonmusk {
+        margin-bottom: 150px;
+    }
+}

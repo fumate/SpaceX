@@ -1,0 +1,280 @@
+@import "reset.css";
+
+body {
+    background-color: black;
+}
+.landing {
+    padding: 0 20px;
+    height: 100vh;
+    background-image: url("assets/images/landing.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    margin: 0 auto;
+}
+.header__menu {
+    text-transform: uppercase;
+}
+.header__menu--options {
+    margin-right: 20px;
+    font-family: Monstrerrat, sans-serif;
+    font-size: 14px;
+}
+.header__logo {
+    fill: white;
+    display: block;
+    height: 21px;
+    padding: 20px 0;
+    margin: 0 auto;
+    transition: transform 0.5s;
+}
+.header__logo:hover {
+    transform: scale(1.1);
+}
+.header__bars {
+    color: white;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+
+}
+.starship {
+    color: white;
+    margin-bottom: 60px;
+}
+.starship__date {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.starship__title {
+    text-transform: uppercase;
+    font-family: Monstrerrat, sans-serif;
+    font-size: 34px;
+    letter-spacing: -2.4px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.starship__button {
+    text-transform: uppercase;
+    background: none;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid white;
+}
+.starship__button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.46);
+}
+
+.starlink {
+    padding: 0 20px;
+    background: black;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.starlink__card {
+    margin-bottom: 60px;
+}
+.starlink__img {
+    height: 224px;
+    width: 336px;
+}
+.starlink__date {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    color: #8B939B;
+    font-size: 14px;
+    line-height: 28px;
+}
+.starlink__title {
+    text-transform: uppercase;
+    font-family: Monstrerrat, sans-serif;
+    font-size: 24px;
+    margin: 5px 0;
+}
+.starlink__view {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.starlink__article {
+    color: white;
+}
+.starlink__arrow {
+    position: relative;
+    top: 1px;
+}
+.starlink__arrow {
+    color: white;
+}
+.starlink__arrow:hover {
+    margin-left: 5px;
+    transition-duration: 0.5s;
+}
+.reusability {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin-bottom: 150px;
+}
+.reusability__text--container {
+    margin: auto 0;
+}
+.reusability__img {
+    margin-right: 60px;
+}
+.reusability__text {
+    font-family: Monstrerrat, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.reusability__title {
+    text-transform: uppercase;
+    font-family: Monstrerrat, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.subscribe {
+    padding: 0 20px;
+    color: white;
+}
+.subscribe__text {
+    font-family: Monstrerrat, sans-serif;
+    font-size: 16px;
+}
+.subscribe__box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.subscribe__email--box {
+    background: none;
+    border: 1px solid #383838;
+    height: 50px;
+    padding: 0 10px;
+    color: white;
+}
+.subsrcibe__email--title {
+    text-align: center;
+    font-family: Monstrerrat, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subscribe__text {
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+}
+.subscribe__button {
+    box-sizing: border-box;
+    height: 40px;
+    width: 50px;
+    border: 1px solid white;
+    position: absolute;
+    right: 5px;
+    top: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe__arrow {
+    color: white;
+    padding: 10px 20px;
+}
+.subscribe__button:hover {
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.subscribe__arrow:hover {
+    color: black;
+}
+
+.quote {
+    padding: 0 20px;
+    min-height: 100vh;
+    background-image: url("assets/images/saturn.jpg");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.quote__text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.quote__elonmusk {
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.elonmusk {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vertical__line {
+    height: 142px;
+    width: 1px;
+    background: white;
+    margin-bottom: 60px;
+}
+.future {
+    text-transform: uppercase;
+    font-family: Monstrerrat, sans-serif;
+    padding: 15px 30px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 60px;
+}
+.future:hover {
+    background: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.footer {
+    padding: 0 20px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.footer__copyright {
+    color: #8B939B;
+    margin-bottom: 30px;
+}
+ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer__menu {
+    margin: 0 5px;
+}
+
+
+
